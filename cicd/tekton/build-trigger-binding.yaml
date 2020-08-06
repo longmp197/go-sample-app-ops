@@ -7,6 +7,4 @@ spec:
   - name: REPO_URL
     value: $(body.repository.clone_url)
   - name: REVISION
-    value: $(body.pull_request.head.sha)
-  - name: IMAGE
-    value: longmp197/go-sample-app:2020.08.05-13.23.56
+    value: $(body.head_commit.id)

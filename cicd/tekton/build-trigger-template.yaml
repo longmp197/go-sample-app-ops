@@ -33,5 +33,3 @@ spec:
       description: The Git repository url to build and deploy.
     - name: REVISION
       description: The Git revision to build and deploy.
-    - name: IMAGE
-      description: Name and tag of the Docker container in the Deployment.
